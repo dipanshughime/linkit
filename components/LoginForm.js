@@ -2,6 +2,7 @@ import Link from 'next/link';
 import React from 'react'
 
 const LoginForm = () => {
+  
   return (
     <div>
         <section class="h-screen">
@@ -143,6 +144,9 @@ const LoginForm = () => {
                 class="text-danger transition duration-150 ease-in-out hover:text-danger-600 focus:text-danger-600 active:text-danger-700"
                 >Register</Link>
             </p>
+            <div className="bg-red-500 text-white w-fit text-sm py-1 px-3 rounded-md mt-2">
+              Error
+            </div>
           </div>
         </form> 
       </div>
